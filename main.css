@@ -1,0 +1,55 @@
+body {
+  background-color: #00bcd4;
+  color: #212121;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 80%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  border: 1px outset #bdbdbd;
+}
+
+.product {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 400px;
+  background-color: #b2ebf2;
+  border: 1px solid #bdbdbd;
+  margin: 20px;
+  box-shadow: 10px 10px 5px black;
+}
+
+.border {
+  border-top: lightblue;
+}
+
+.availability {
+  background-color: #bdbdbd;
+  color: #ff5252;
+  padding: 0;
+}
+
+p {
+  text-align: justify;
+  margin: 10px;
+}
+
+h3 {
+  border-bottom: 1px double lightblue;
+}
+
+h1 {
+  color: #212121;
+}
