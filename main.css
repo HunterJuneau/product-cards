@@ -1,0 +1,49 @@
+body {
+  background-color: darkgrey;
+  color: lightblue;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 80%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  border: 1px outset darkgrey;
+}
+
+.product {
+  display: flex;
+  flex-flow: column wrap;
+  width: 400px;
+  background-color: #721121;
+  border: 1px solid lightblue;
+  margin: 20px;
+  box-shadow: 10px 10px 5px black;
+}
+
+.border {
+  border-top: lightblue;
+}
+
+.availability {
+    background-color: darkgrey;
+    color: yellow;
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+    margin: 10px;
+}
+
+h3 {
+    border-bottom: 1px double lightblue;
+}
